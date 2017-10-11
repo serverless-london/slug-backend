@@ -1,0 +1,6 @@
+{
+  "name": "slug-post-slack",
+  "dependencies": {
+    "@architect/functions": "^1.6.2"
+  }
+}

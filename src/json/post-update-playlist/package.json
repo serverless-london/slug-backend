@@ -1,0 +1,6 @@
+{
+  "name": "slug-post-update-playlist",
+  "dependencies": {
+    "@architect/functions": "^1.6.2"
+  }
+}
