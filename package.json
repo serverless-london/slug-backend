@@ -1,0 +1,36 @@
+{
+  "name": "slug-backend",
+  "version": "0.0.1",
+  "description": "Backend for Serverless London User Group Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=testing AWS_PROFILE=xxx AWS_REGION=xxx tape test/**/*-test.js | tap-spec",
+    "create": "AWS_PROFILE=slug AWS_REGION=eu-west-1 arc-create",
+    "deploy": "AWS_PROFILE=slug AWS_REGION=eu-west-1 arc-deploy",
+    "start": "AWS_PROFILE=slug AWS_REGION=eu-west-1 NODE_ENV=testing arc-sandbox"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/serverless-london/slug-backend.git"
+  },
+  "keywords": [
+    "serverless",
+    "arc-codes",
+    "london",
+    "lambda",
+    "aws"
+  ],
+  "author": "A Stanley",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/serverless-london/slug-backend/issues"
+  },
+  "homepage": "https://github.com/serverless-london/slug-backend#readme",
+  "dependencies": {
+    "@architect/workflows": "^1.1.17"
+  },
+  "devDependencies": {
+    "tap-spec": "^4.1.1",
+    "tape": "^4.8.0"
+  }
+}
