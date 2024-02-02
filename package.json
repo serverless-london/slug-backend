@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/serverless-london/slug-backend#readme",
   "dependencies": {
-    "@architect/workflows": "^1.1.17"
+    "@architect/workflows": "^3.6.0"
   },
   "devDependencies": {
     "tap-spec": "^4.1.1",
